@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LanguageSelector Component - Snapshots > renders correctly in English mode 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-0.5 p-1 bg-primary-800 rounded-lg border border-accent-primary border-opacity-30 hover:border-opacity-50 transition-all duration-200"
+  >
+    <button
+      aria-label="Spanish"
+      class="px-3 py-1 text-sm font-semibold transition-all duration-200 rounded bg-gradient-to-r from-accent-primary to-accent-primary-light text-white shadow-md"
+      title="Español"
+    >
+      ES
+    </button>
+    <button
+      aria-label="English"
+      class="px-3 py-1 text-sm font-semibold transition-all duration-200 rounded text-text-secondary hover:text-text-primary"
+      title="English"
+    >
+      EN
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LanguageSelector Component - Snapshots > renders correctly in Spanish mode 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-0.5 p-1 bg-primary-800 rounded-lg border border-accent-primary border-opacity-30 hover:border-opacity-50 transition-all duration-200"
+  >
+    <button
+      aria-label="Spanish"
+      class="px-3 py-1 text-sm font-semibold transition-all duration-200 rounded bg-gradient-to-r from-accent-primary to-accent-primary-light text-white shadow-md"
+      title="Español"
+    >
+      ES
+    </button>
+    <button
+      aria-label="English"
+      class="px-3 py-1 text-sm font-semibold transition-all duration-200 rounded text-text-secondary hover:text-text-primary"
+      title="English"
+    >
+      EN
+    </button>
+  </div>
+</div>
+`;

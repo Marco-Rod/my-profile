@@ -1,0 +1,584 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ExperienceTimeline Component - Snapshots > renders correctly 1`] = `
+<div>
+  <section
+    class="compact-section"
+    id="experience"
+  >
+    <div
+      class="site-container"
+    >
+      <div
+        class="section-heading mb-12 text-center"
+        initial="[object Object]"
+        transition="[object Object]"
+        viewport="[object Object]"
+        whileinview="[object Object]"
+      >
+        <h2
+          class="text-4xl md:text-5xl font-bold text-dark-text mb-4"
+        >
+          03  Experiencia
+        </h2>
+        <p
+          class="text-lg text-dark-text-secondary max-w-2xl mx-auto"
+        >
+          Mi Trayectoria Profesional
+        </p>
+      </div>
+      <div
+        class="experience-list"
+        initial="[object Object]"
+        transition="[object Object]"
+        viewport="[object Object]"
+        whileinview="[object Object]"
+      >
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2025
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2026
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Ebunti
+              </h3>
+              <span>
+                Desarrollador Backend
+              </span>
+            </div>
+            <p>
+              Diseñé la arquitectura de servicios principales con Django, FastAPI y Flask. Implementé Apache Kafka para procesar datos hacia PostgreSQL y MongoDB, configuré Celery para tareas en segundo plano y desplegué microservicios con Docker y CI/CD.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                fastapi
+              </span>
+              <span>
+                flask
+              </span>
+              <span>
+                kafka
+              </span>
+              <span>
+                celery
+              </span>
+              <span>
+                postgresql
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2024
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2025
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Interfell
+              </h3>
+              <span>
+                Desarrollador Backend
+              </span>
+            </div>
+            <p>
+              Gestioné flujos de datos orientados a eventos con Apache Kafka. Desarrollé y mantuve microservicios protegidos con OAuth y JWT usando Python, FastAPI, Flask, PostgreSQL, AWS S3, MongoDB y Docker.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                fastapi
+              </span>
+              <span>
+                flask
+              </span>
+              <span>
+                kafka
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                mongodb
+              </span>
+              <span>
+                aws
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2022
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2024
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                IAD México
+              </h3>
+              <span>
+                Desarrollador Full Stack
+              </span>
+            </div>
+            <p>
+              Administré servidores y bases de datos. Desarrollé APIs REST y microservicios con Python, Django, FastAPI y Node.js, implementando OAuth y JWT, y apoyé despliegues con Docker, AWS y CI/CD.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                fastapi
+              </span>
+              <span>
+                nodejs
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                docker
+              </span>
+              <span>
+                aws
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2019
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2022
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Casas y Terrenos
+              </h3>
+              <span>
+                Desarrollador Python
+              </span>
+            </div>
+            <p>
+              Administré servidores y bases de datos PostgreSQL. Implementé módulos backend con Python, Django y Flask, y gestioné infraestructura en AWS y despliegues con Docker y CI/CD.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                flask
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                aws
+              </span>
+              <span>
+                docker
+              </span>
+              <span>
+                cicd
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2018
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2019
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Clivo, Departamento de TI
+              </h3>
+              <span>
+                Desarrollador Python
+              </span>
+            </div>
+            <p>
+              Configuré y supervisé bases de datos y servicios en AWS y Google Cloud. Desarrollé componentes backend con Python y Django integrados con PostgreSQL.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                aws
+              </span>
+              <span>
+                gcp
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2018
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2019
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Inkuvi, Departamento de TI
+              </h3>
+              <span>
+                Desarrollador Python / Full Stack
+              </span>
+            </div>
+            <p>
+              Desarrollé aplicaciones web con Python, Django, Flask y Node.js. Administré PostgreSQL y Oracle, diseñé APIs con OAuth y JWT, automaticé pruebas y migré componentes a Docker en AWS y GCP.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                flask
+              </span>
+              <span>
+                nodejs
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                oracle
+              </span>
+              <span>
+                docker
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2018
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2018
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Global Standards, Departamento de TI
+              </h3>
+              <span>
+                Desarrollador Full Stack
+              </span>
+            </div>
+            <p>
+              Desarrollé funcionalidades con Python, Odoo, PHP, Laravel, MySQL y Vue.js. Mantuve código legado, brindé soporte a PostgreSQL y Oracle e implementé pruebas automatizadas.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                odoo
+              </span>
+              <span>
+                php
+              </span>
+              <span>
+                laravel
+              </span>
+              <span>
+                mysql
+              </span>
+              <span>
+                vuejs
+              </span>
+              <span>
+                postgresql
+              </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="experience-item"
+          initial="[object Object]"
+          transition="[object Object]"
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
+          <div
+            class="experience-date"
+          >
+            <strong>
+              2015
+            </strong>
+            <span>
+              —
+            </span>
+            <strong>
+              2017
+            </strong>
+          </div>
+          <div
+            aria-hidden="true"
+            class="experience-marker"
+          >
+            <span />
+          </div>
+          <div
+            class="experience-box"
+          >
+            <div
+              class="experience-title-row"
+            >
+              <h3>
+                Gobierno del Estado de Tabasco, Departamento de TI
+              </h3>
+              <span>
+                Desarrollador Full Stack
+              </span>
+            </div>
+            <p>
+              Administré PostgreSQL y Oracle, optimicé consultas SQL y generé reportes estadísticos. Brindé soporte a servidores Linux y mantuve aplicaciones desarrolladas con Python y Django.
+            </p>
+            <div
+              class="experience-tags"
+            >
+              <span>
+                python
+              </span>
+              <span>
+                django
+              </span>
+              <span>
+                postgresql
+              </span>
+              <span>
+                oracle
+              </span>
+              <span>
+                linux
+              </span>
+              <span>
+                sql
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</div>
+`;

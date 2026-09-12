@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "technologies": "Technologies",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "brand": { "tagline": "Build · Improve · Repeat" },
+  "hero": {
+    "title": "Marco Antonio Rodríguez Torres",
+    "subtitle": "Backend Developer | 10+ Years of Experience",
+    "greeting": "Hi, I'm",
+    "role": "Backend Developer",
+    "description": "I build reliable backend systems, APIs, and data-oriented solutions. Over 10 years turning complex problems into clear, scalable software.",
+    "location": "Tonalá, Jalisco, Mexico",
+    "terminal_file": "skills.txt",
+    "cta_projects": "View Projects",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn",
+    "cta_cv": "Download CV",
+    "cv_dialog": "Select CV language",
+    "cv_choose": "Choose a language",
+    "cv_spanish": "CV in Spanish",
+    "cv_english": "CV in English"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Backend Developer with Professional Experience",
+    "content": "I am a backend developer with over 10 years of experience building scalable, high-performance applications. I specialize in microservices architecture, REST APIs, and cloud technologies.",
+    "features": {
+      "specialization": { "title": "Backend Expertise", "description": "Experienced in microservices architecture, scalable REST APIs, and enterprise design patterns." },
+      "teamwork": { "title": "Teamwork", "description": "Experienced working with multidisciplinary teams in Agile and DevOps environments." },
+      "learning": { "title": "Continuous Learning", "description": "I stay current with backend development and cloud computing technologies." },
+      "impact": { "title": "Business Impact", "description": "Focused on solutions that create real value and improve operational efficiency." }
+    }
+  },
+  "technologies": {
+    "title": "Technologies",
+    "subtitle": "Tools and Programming Languages",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Tools",
+    "infrastructure": "Infrastructure",
+    "database": "Databases",
+    "devops": "DevOps",
+    "all": "All"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My Professional Journey",
+    "current": "Current",
+    "items": {
+      "ebunti": { "position": "Backend Developer", "description": "Designed the architecture of core services with Django, FastAPI, and Flask. Implemented Apache Kafka to process data into PostgreSQL and MongoDB, configured Celery for background tasks, and deployed microservices with Docker and CI/CD." },
+      "interfell": { "position": "Backend Developer", "description": "Managed event-driven data flows with Apache Kafka. Developed and maintained microservices secured with OAuth and JWT using Python, FastAPI, Flask, PostgreSQL, AWS S3, MongoDB, and Docker." },
+      "iad-mexico": { "position": "Full Stack Developer", "description": "Administered servers and databases. Developed REST APIs and microservices with Python, Django, FastAPI, and Node.js, implemented OAuth and JWT, and supported deployments with Docker, AWS, and CI/CD." },
+      "casas-terrenos": { "position": "Python Developer", "description": "Administered servers and PostgreSQL databases. Implemented backend modules with Python, Django, and Flask, and managed AWS infrastructure and deployments with Docker and CI/CD." },
+      "clivo": { "company": "Clivo, IT Department", "position": "Python Developer", "description": "Configured and monitored databases and services on AWS and Google Cloud. Developed backend components with Python and Django integrated with PostgreSQL." },
+      "inkuvi": { "company": "Inkuvi, IT Department", "position": "Python / Full Stack Developer", "description": "Developed web applications with Python, Django, Flask, and Node.js. Administered PostgreSQL and Oracle, designed APIs with OAuth and JWT, automated tests, and migrated components to Docker on AWS and GCP." },
+      "global-standards": { "company": "Global Standards, IT Department", "position": "Full Stack Developer", "description": "Developed features with Python, Odoo, PHP, Laravel, MySQL, and Vue.js. Maintained legacy code, supported PostgreSQL and Oracle, and implemented automated tests." },
+      "gobierno-tabasco": { "company": "Government of the State of Tabasco, IT Department", "position": "Full Stack Developer", "description": "Administered PostgreSQL and Oracle, optimized SQL queries, and generated statistical reports. Supported Linux servers and maintained applications built with Python and Django." }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Featured Work and Contributions",
+    "empty": "New projects will be added soon.",
+    "view": "View project"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic Background",
+    "items": {
+      "lic-ti-tabasco": { "institution": "Technological University of Tabasco", "degree": "Bachelor's Degree", "description": "Information Technology. Studies in software development, databases, systems architecture, and Agile methodologies." }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "location_value": "Tonalá, Jalisco, Mexico",
+    "send_email": "Send Email",
+    "follow": "Follow me on social media",
+    "message": "Have a question or proposal? Send me a message and I will reply shortly."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built_with": "Built with React + Vite + Tailwind CSS",
+    "contact": "Contact",
+    "social": "Social media",
+    "quickLinks": "Quick links",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with React, Vite, and Tailwind CSS"
+  }
+}

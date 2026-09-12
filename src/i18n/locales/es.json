@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "technologies": "Tecnologías",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "contact": "Contacto",
+    "menu": "Menú"
+  },
+  "brand": { "tagline": "Construir · Mejorar · Repetir" },
+  "hero": {
+    "title": "Marco Antonio Rodríguez Torres",
+    "subtitle": "Backend Developer | 10+ Años de Experiencia",
+    "greeting": "Hola, soy",
+    "role": "Desarrollador Backend",
+    "description": "Construyo sistemas backend confiables, APIs y soluciones orientadas a datos. Más de 10 años convirtiendo problemas complejos en software claro y escalable.",
+    "location": "Tonalá, Jalisco, México",
+    "terminal_file": "habilidades.txt",
+    "cta_projects": "Ver Proyectos",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn",
+    "cta_cv": "Descargar CV",
+    "cv_dialog": "Seleccionar idioma del CV",
+    "cv_choose": "Elige el idioma",
+    "cv_spanish": "CV en Español",
+    "cv_english": "CV en Inglés"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Desarrollador Backend con Experiencia Profesional",
+    "content": "Soy un desarrollador backend con más de 10 años de experiencia creando aplicaciones escalables y de alto rendimiento. Me especializo en arquitectura de microservicios, APIs REST y tecnologías cloud.",
+    "features": {
+      "specialization": { "title": "Especialización Backend", "description": "Experto en arquitectura de microservicios, APIs REST escalables y patrones de diseño empresariales." },
+      "teamwork": { "title": "Trabajo en Equipo", "description": "Experiencia colaborando con equipos multidisciplinarios en entornos ágiles y DevOps." },
+      "learning": { "title": "Aprendizaje Continuo", "description": "Actualizado con las últimas tendencias y tecnologías de desarrollo backend y cloud computing." },
+      "impact": { "title": "Impacto Empresarial", "description": "Enfocado en soluciones que generan valor real y mejoran la eficiencia operativa." }
+    }
+  },
+  "technologies": {
+    "title": "Tecnologías",
+    "subtitle": "Herramientas y Lenguajes de Programación",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "Herramientas",
+    "infrastructure": "Infraestructura",
+    "database": "Bases de Datos",
+    "devops": "DevOps",
+    "all": "Todas"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Mi Trayectoria Profesional",
+    "current": "Actual",
+    "items": {
+      "ebunti": { "position": "Desarrollador Backend", "description": "Diseñé la arquitectura de servicios principales con Django, FastAPI y Flask. Implementé Apache Kafka para procesar datos hacia PostgreSQL y MongoDB, configuré Celery para tareas en segundo plano y desplegué microservicios con Docker y CI/CD." },
+      "interfell": { "position": "Desarrollador Backend", "description": "Gestioné flujos de datos orientados a eventos con Apache Kafka. Desarrollé y mantuve microservicios protegidos con OAuth y JWT usando Python, FastAPI, Flask, PostgreSQL, AWS S3, MongoDB y Docker." },
+      "iad-mexico": { "position": "Desarrollador Full Stack", "description": "Administré servidores y bases de datos. Desarrollé APIs REST y microservicios con Python, Django, FastAPI y Node.js, implementando OAuth y JWT, y apoyé despliegues con Docker, AWS y CI/CD." },
+      "casas-terrenos": { "position": "Desarrollador Python", "description": "Administré servidores y bases de datos PostgreSQL. Implementé módulos backend con Python, Django y Flask, y gestioné infraestructura en AWS y despliegues con Docker y CI/CD." },
+      "clivo": { "company": "Clivo, Departamento de TI", "position": "Desarrollador Python", "description": "Configuré y supervisé bases de datos y servicios en AWS y Google Cloud. Desarrollé componentes backend con Python y Django integrados con PostgreSQL." },
+      "inkuvi": { "company": "Inkuvi, Departamento de TI", "position": "Desarrollador Python / Full Stack", "description": "Desarrollé aplicaciones web con Python, Django, Flask y Node.js. Administré PostgreSQL y Oracle, diseñé APIs con OAuth y JWT, automaticé pruebas y migré componentes a Docker en AWS y GCP." },
+      "global-standards": { "company": "Global Standards, Departamento de TI", "position": "Desarrollador Full Stack", "description": "Desarrollé funcionalidades con Python, Odoo, PHP, Laravel, MySQL y Vue.js. Mantuve código legado, brindé soporte a PostgreSQL y Oracle e implementé pruebas automatizadas." },
+      "gobierno-tabasco": { "company": "Gobierno del Estado de Tabasco, Departamento de TI", "position": "Desarrollador Full Stack", "description": "Administré PostgreSQL y Oracle, optimicé consultas SQL y generé reportes estadísticos. Brindé soporte a servidores Linux y mantuve aplicaciones desarrolladas con Python y Django." }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajos Destacados y Contribuciones",
+    "empty": "Próximamente agregaré nuevos proyectos.",
+    "view": "Ver proyecto"
+  },
+  "education": {
+    "title": "Educación",
+    "subtitle": "Formación Académica",
+    "items": {
+      "lic-ti-tabasco": { "institution": "Universidad Tecnológica de Tabasco", "degree": "Licenciatura", "description": "Tecnologías de la Información. Formación en desarrollo de software, bases de datos, arquitectura de sistemas y metodologías ágiles." }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en Contacto Conmigo",
+    "email": "Email",
+    "phone": "Teléfono",
+    "location": "Ubicación",
+    "location_value": "Tonalá, Jalisco, México",
+    "send_email": "Enviar Email",
+    "follow": "Sígueme en redes sociales",
+    "message": "¿Tienes alguna pregunta o propuesta? Escríbeme y responderé a la brevedad."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "built_with": "Construido con React + Vite + Tailwind CSS",
+    "contact": "Contacto",
+    "social": "Redes sociales",
+    "quickLinks": "Enlaces rápidos",
+    "copyright": "Todos los derechos reservados.",
+    "builtWith": "Construido con React, Vite y Tailwind CSS"
+  }
+}

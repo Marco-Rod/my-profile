@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navigation Component - Snapshots > renders correctly with active section 1`] = `
+<div>
+  <nav
+    class="flex items-center gap-6 lg:gap-8"
+  >
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-accent-primary"
+    >
+      <div
+        class="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-accent-primary to-accent-primary-light"
+        style="width: auto; right: 0px;"
+      />
+    </button>
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+  </nav>
+</div>
+`;
+
+exports[`Navigation Component - Snapshots > renders correctly with default props 1`] = `
+<div>
+  <nav
+    class="flex items-center gap-6 lg:gap-8"
+  >
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+    <button
+      class="relative px-3 py-2 text-sm font-medium transition-colors duration-200 text-text-secondary hover:text-text-primary"
+    />
+  </nav>
+</div>
+`;

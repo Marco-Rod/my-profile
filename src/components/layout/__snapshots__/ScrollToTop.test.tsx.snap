@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ScrollToTop Component - Snapshots > renders correctly when scroll position is at top 1`] = `<div />`;
+
+exports[`ScrollToTop Component - Snapshots > renders correctly when scroll position is below threshold 1`] = `
+<div>
+  <button
+    aria-label="Scroll to top"
+    class="fixed bottom-6 right-6 lg:bottom-8 lg:right-8 z-50 p-3 bg-gradient-to-r from-accent-primary to-accent-primary-light text-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200"
+    style="opacity: 0; transform: translateY(10px) scale(0.8);"
+    tabindex="0"
+    title="Back to top"
+  >
+    <svg
+      aria-hidden="true"
+      class="w-5 h-5"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M11.47 2.47a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06l-6.22-6.22V21a.75.75 0 0 1-1.5 0V4.81l-6.22 6.22a.75.75 0 1 1-1.06-1.06l7.5-7.5Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;

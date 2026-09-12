@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Marco Antonio Rodríguez Torres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #1e293b;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #3b82f6;
+            margin-top: 30px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #64748b;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .job, .education-item {
+            margin-bottom: 20px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+            color: #1e293b;
+        }
+        .company, .institution {
+            color: #3b82f6;
+            font-weight: 600;
+        }
+        .date {
+            color: #64748b;
+            font-size: 14px;
+        }
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .tech-badge {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .note {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        @media print {
+            body { margin: 0; padding: 20px; }
+            .note { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="note">
+        <strong>⚠️ PLANTILLA - DEBE SER REEMPLAZADA</strong><br>
+        Este es un template HTML para crear tu CV. Completa la información y guarda como PDF usando "Imprimir → Guardar como PDF" en tu navegador.
+    </div>
+
+    <header>
+        <h1>Marco Antonio Rodríguez Torres</h1>
+        <div class="contact-info">
+            <p>Backend Developer | Senior Software Engineer</p>
+            <p>
+                📧 mrc5622@gmail.com | 📱 +52 3317709591<br>
+                📍 Tonala, Jalisco, México<br>
+                🔗 GitHub: github.com/Marco-Rod | LinkedIn: linkedin.com/in/marco-antonio-rodriguez-torres-10a61242
+            </p>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Resumen Profesional</h2>
+        <p>
+            Backend Developer con más de 10 años de experiencia en desarrollo de software empresarial. 
+            Especializado en PHP, Laravel, Node.js y Python. Experiencia en arquitecturas escalables, 
+            servicios en la nube (AWS, GCP), y liderazgo técnico de equipos.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Experiencia Laboral</h2>
+        
+        <div class="job">
+            <div class="job-title">Senior Backend Developer</div>
+            <div class="company">Nombre de la Empresa</div>
+            <div class="date">Enero 2022 - Presente</div>
+            <p>
+                Descripción de tus responsabilidades principales y logros en esta posición.
+                Incluye métricas específicas cuando sea posible (ej: "Reduje el tiempo de respuesta en 40%").
+            </p>
+            <div class="technologies">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">Laravel</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">AWS</span>
+                <span class="tech-badge">Docker</span>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Backend Developer</div>
+            <div class="company">Empresa Anterior</div>
+            <div class="date">Marzo 2020 - Diciembre 2021</div>
+            <p>
+                Descripción de responsabilidades y logros...
+            </p>
+            <div class="technologies">
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">Redis</span>
+            </div>
+        </div>
+
+        <!-- Añadir más experiencias según sea necesario -->
+    </section>
+
+    <section class="section">
+        <h2>Habilidades Técnicas</h2>
+        <div class="technologies">
+            <span class="tech-badge">PHP</span>
+            <span class="tech-badge">Laravel</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">Redis</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">AWS</span>
+            <span class="tech-badge">GCP</span>
+            <span class="tech-badge">Git</span>
+            <span class="tech-badge">CI/CD</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Educación</h2>
+        
+        <div class="education-item">
+            <div class="degree">Licenciatura en Tecnologías de la Información</div>
+            <div class="institution">Universidad</div>
+            <div class="date">2010 - 2014</div>
+            <p>Especialización o detalles relevantes de tu formación académica.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Proyectos Destacados</h2>
+        <ul>
+            <li><strong>Nombre del Proyecto:</strong> Descripción breve del proyecto, tecnologías utilizadas y resultados.</li>
+            <li><strong>Otro Proyecto:</strong> Descripción breve del proyecto, tecnologías utilizadas y resultados.</li>
+        </ul>
+    </section>
+</body>
+</html>

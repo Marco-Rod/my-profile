@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProjectsSection Component - Snapshots > renders correctly 1`] = `
+<div>
+  <section
+    class="compact-section"
+    id="projects"
+  >
+    <div
+      class="site-container"
+    >
+      <div
+        class="section-heading mb-12 text-center"
+        initial="[object Object]"
+        transition="[object Object]"
+        viewport="[object Object]"
+        whileinview="[object Object]"
+      >
+        <h2
+          class="text-4xl md:text-5xl font-bold text-dark-text mb-4"
+        >
+          04  Proyectos
+        </h2>
+        <p
+          class="text-lg text-dark-text-secondary max-w-2xl mx-auto"
+        >
+          Trabajos Destacados y Contribuciones
+        </p>
+      </div>
+      <div
+        class="projects-grid"
+        initial="hidden"
+        variants="[object Object]"
+        viewport="[object Object]"
+        whileinview="visible"
+      />
+      <div
+        class="text-center py-12"
+        initial="[object Object]"
+        transition="[object Object]"
+        viewport="[object Object]"
+        whileinview="[object Object]"
+      >
+        <p
+          class="text-dark-text-secondary text-lg"
+        >
+          Próximamente agregaré nuevos proyectos.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;

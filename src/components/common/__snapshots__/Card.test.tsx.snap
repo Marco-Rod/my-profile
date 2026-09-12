@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card Component > matches snapshot with custom className 1`] = `
+<div
+  class="bg-dark-card border border-dark-border rounded-xl p-6 transition-all duration-300 hover:border-accent-primary hover:shadow-lg hover:shadow-accent-primary/20 custom-test-class"
+>
+  Custom Card
+</div>
+`;
+
+exports[`Card Component > matches snapshot with default props 1`] = `
+<div
+  class="bg-dark-card border border-dark-border rounded-xl p-6 transition-all duration-300 hover:border-accent-primary hover:shadow-lg hover:shadow-accent-primary/20"
+>
+  Default Card
+</div>
+`;
+
+exports[`Card Component > matches snapshot with hover disabled 1`] = `
+<div
+  class="bg-dark-card border border-dark-border rounded-xl p-6 transition-all duration-300"
+>
+  No Hover Card
+</div>
+`;
