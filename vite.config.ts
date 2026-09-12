@@ -7,7 +7,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-profile/',
+  base: '/',
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
