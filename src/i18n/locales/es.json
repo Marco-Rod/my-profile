@@ -75,6 +75,13 @@
       "longDescription": "Diamond IQ es un proyecto de práctica que combina un backend tradicional con capacidades de IA generativa aplicadas a datos de béisbol. Permite hacer preguntas en lenguaje natural y enrutarlas a la fuente apropiada: datos estructurados de jugadores/temporadas vía tools PostgreSQL, o definiciones/metodología vía RAG sobre una base de conocimiento. El sistema incluye un Router LLM soportando Ollama (local), Gemini y OpenAI con lógica de retry/fallback, seguimiento de uso de tokens, límites de ejecución, y guardrails para validación de entrada/salida. Construido como una aplicación FastAPI modular con arquitectura limpia en capas (API, orquestación IA, providers, tools, RAG, servicios, repositorios).",
       "role": "Desarrollador Solo",
       "impact": "Proyecto personal que demuestra integración backend + GenAI con patrones de producción: tool calling, RAG, routing multi-provider, observabilidad y arquitectura limpia."
+    },
+    "whatsapp-booking": {
+      "title": "WhatsApp Booking",
+      "description": "SaaS full-stack para negocios de servicios que gestionan reservas por WhatsApp. Clientes reservan, cancelan, reprograman; negocios configuran servicios, horarios y sincronía con Google Calendar desde un dashboard autogestionado. Desplegado en Lightsail + Vercel.",
+      "longDescription": "WhatsApp Booking permite a negocios de servicios gestionar citas completamente por WhatsApp. Los clientes consultan disponibilidad, reservan, cancelan o reprograman en lenguaje natural. Los negocios se dan de alta autónomos vía Google Admin Sign-In, configuran servicios, horarios y opcionalmente conectan Google Calendar para sincronía bidireccional. Incluye dashboard React para agenda, integración WhatsApp Cloud API con verificación HMAC, Google Calendar OAuth con PKCE, credenciales cifradas, y motor de recordatorios procesado por scheduler externo. Backend FastAPI async (SQLAlchemy, Alembic, PostgreSQL) y frontend React/TypeScript/Vite. Desplegado con Docker Compose en AWS Lightsail con Caddy reverse proxy (HTTPS, rate limiting, topología IP fija) y Vercel para el frontend.",
+      "role": "Desarrollador Solo / Founder",
+      "impact": "Producto SaaS end-to-end: arquitectura full-stack, integraciones third-party (Meta WhatsApp Cloud API, Google Calendar/Identity), despliegue producción (Lightsail, Vercel, Caddy), seguridad (HMAC, credenciales cifradas, sesiones HttpOnly), y onboarding autogestionado."
     }
   },
   "education": {

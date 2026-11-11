@@ -34,6 +34,22 @@ export const technologies: Technology[] = [
     proficiency: 'expert',
     yearsOfExperience: 8,
   },
+  {
+    id: 'sqlalchemy',
+    name: 'SQLAlchemy',
+    category: 'backend',
+    icon: 'sqlalchemy',
+    proficiency: 'expert',
+    yearsOfExperience: 8,
+  },
+  {
+    id: 'pydantic',
+    name: 'Pydantic',
+    category: 'backend',
+    icon: 'pydantic',
+    proficiency: 'expert',
+    yearsOfExperience: 5,
+  },
   
   // Backend - JavaScript/Node.js
   {
@@ -150,6 +166,22 @@ export const technologies: Technology[] = [
     proficiency: 'intermediate',
     yearsOfExperience: 5,
   },
+  {
+    id: 'vercel',
+    name: 'Vercel',
+    category: 'infrastructure',
+    icon: 'vercel',
+    proficiency: 'expert',
+    yearsOfExperience: 4,
+  },
+  {
+    id: 'caddy',
+    name: 'Caddy',
+    category: 'infrastructure',
+    icon: 'caddy',
+    proficiency: 'intermediate',
+    yearsOfExperience: 2,
+  },
   
   // DevOps & Tools
   {
@@ -175,6 +207,38 @@ export const technologies: Technology[] = [
     icon: 'cicd',
     proficiency: 'expert',
     yearsOfExperience: 7,
+  },
+  {
+    id: 'asyncio',
+    name: 'asyncio',
+    category: 'tools',
+    icon: 'asyncio',
+    proficiency: 'expert',
+    yearsOfExperience: 7,
+  },
+  {
+    id: 'whatsapp',
+    name: 'WhatsApp Cloud API',
+    category: 'tools',
+    icon: 'whatsapp',
+    proficiency: 'expert',
+    yearsOfExperience: 2,
+  },
+  {
+    id: 'google-calendar',
+    name: 'Google Calendar API',
+    category: 'tools',
+    icon: 'google-calendar',
+    proficiency: 'expert',
+    yearsOfExperience: 2,
+  },
+  {
+    id: 'google-oauth',
+    name: 'Google OAuth / Identity',
+    category: 'tools',
+    icon: 'google-oauth',
+    proficiency: 'expert',
+    yearsOfExperience: 3,
   },
   
 // Message Brokers & Background Tasks

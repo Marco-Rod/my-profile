@@ -19,6 +19,7 @@ import {
 import {
   SiAngular,
   SiApachekafka,
+  SiCaddy,
   SiCelery,
   SiDjango,
   SiFastapi,
@@ -32,9 +33,13 @@ import {
   SiPandas,
   SiPhp,
   SiPostgresql,
+  SiPydantic,
   SiRabbitmq,
+  SiSqlalchemy,
   SiTypescript,
+  SiVercel,
   SiVuedotjs,
+  SiWhatsapp,
 } from 'react-icons/si';
 import {
   FaBrain,
@@ -42,6 +47,7 @@ import {
   FaFlask,
   FaCode,
   FaCube,
+  FaGoogle,
 } from 'react-icons/fa';
 
 /**
@@ -54,6 +60,8 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   django: SiDjango,
   fastapi: SiFastapi,
   flask: SiFlask,
+  sqlalchemy: SiSqlalchemy,
+  pydantic: SiPydantic,
   javascript: SiJavascript,
   nodejs: FaNode,
   'node.js': FaNode,
@@ -65,6 +73,8 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   docker: FaDocker,
   aws: FaAws,
   gcp: SiGooglecloud,
+  vercel: SiVercel,
+  caddy: SiCaddy,
   git: FaGitAlt,
   cicd: FaCodeBranch,
   linux: FaLinux,
@@ -86,6 +96,10 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   embeddings: FaCube,
   pytest: FaFlask,
   alembic: FaCode,
+  asyncio: FaCode,
+  whatsapp: SiWhatsapp,
+  'google-calendar': FaGoogle,
+  'google-oauth': FaGoogle,
   oauth: FaKey,
   jwt: SiJsonwebtokens,
   typescript: SiTypescript,
@@ -98,13 +112,15 @@ const iconMap: Record<string, React.ComponentType<any>> = {
 
 const iconColors: Record<string, string> = {
   python: '#ffd343', django: '#44b78b', fastapi: '#009688', flask: '#d8e0e8',
+  sqlalchemy: '#d71f00', pydantic: '#e92063',
   javascript: '#f7df1e', nodejs: '#68a063', php: '#8892bf', laravel: '#ff2d20',
   react: '#61dafb', vuejs: '#42b883', angular: '#dd0031', postgresql: '#5a9bd5',
   mysql: '#f29111', oracle: '#f80000', mongodb: '#47a248', aws: '#ff9900',
-  gcp: '#4285f4', docker: '#2496ed', git: '#f05032', cicd: '#8b9cf7',
+  gcp: '#4285f4', vercel: '#000000', caddy: '#1e81b0', docker: '#2496ed', git: '#f05032', cicd: '#8b9cf7',
   kafka: '#e8edf2', celery: '#37814a', pandas: '#150458',
   openai: '#412991', ollama: '#000000', gemini: '#4285f4', rag: '#8b5cf6',
   'vector-store': '#10b981', embeddings: '#f59e0b', pytest: '#0a9edd', alembic: '#6d28d9',
+  asyncio: '#306998', whatsapp: '#25d366', 'google-calendar': '#4285f4', 'google-oauth': '#4285f4',
   oauth: '#f6c344', jwt: '#d966ff', linux: '#fcc624', typescript: '#3178c6',
   rabbitmq: '#ff6600',
 };
