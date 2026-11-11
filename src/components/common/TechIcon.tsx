@@ -29,6 +29,7 @@ import {
   SiLaravel,
   SiMongodb,
   SiMysql,
+  SiPandas,
   SiPhp,
   SiPostgresql,
   SiRabbitmq,
@@ -69,6 +70,7 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   mongo: SiMongodb,
   kafka: SiApachekafka,
   celery: SiCelery,
+  pandas: SiPandas,
   oauth: FaKey,
   jwt: SiJsonwebtokens,
   typescript: SiTypescript,
@@ -85,8 +87,9 @@ const iconColors: Record<string, string> = {
   react: '#61dafb', vuejs: '#42b883', angular: '#dd0031', postgresql: '#5a9bd5',
   mysql: '#f29111', oracle: '#f80000', mongodb: '#47a248', aws: '#ff9900',
   gcp: '#4285f4', docker: '#2496ed', git: '#f05032', cicd: '#8b9cf7',
-  kafka: '#e8edf2', celery: '#37814a', oauth: '#f6c344', jwt: '#d966ff',
-  linux: '#fcc624', typescript: '#3178c6', rabbitmq: '#ff6600',
+  kafka: '#e8edf2', celery: '#37814a', pandas: '#150458',
+  oauth: '#f6c344', jwt: '#d966ff', linux: '#fcc624', typescript: '#3178c6',
+  rabbitmq: '#ff6600',
 };
 
 export const TechIcon: React.FC<TechIconProps> = ({

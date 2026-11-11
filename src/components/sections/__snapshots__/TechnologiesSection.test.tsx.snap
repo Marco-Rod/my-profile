@@ -1174,6 +1174,97 @@ exports[`TechnologiesSection Component - Snapshots > renders correctly 1`] = `
               >
                 <div
                   class="flex flex-col items-center gap-2"
+                  title="Pandas"
+                >
+                  <div
+                    class="flex items-center justify-center rounded-lg transition-all duration-200 hover:scale-110 hover:text-accent-primary text-dark-text hover:shadow-lg"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="32"
+                      role="img"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      style="color: rgb(21, 4, 88);"
+                      viewBox="0 0 24 24"
+                      width="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-center"
+                >
+                  <p
+                    class="text-sm font-medium text-dark-text"
+                  >
+                    Pandas
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            variants="[object Object]"
+          >
+            <div
+              class="relative w-full"
+            >
+              <div
+                class="tech-tile"
+              >
+                <div
+                  class="flex flex-col items-center gap-2"
+                  title="OpenAI API"
+                >
+                  <div
+                    class="flex items-center justify-center rounded-lg transition-all duration-200 hover:scale-110 hover:text-accent-primary text-dark-text hover:shadow-lg"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="32"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      style="color: rgb(143, 197, 232);"
+                      viewBox="0 0 512 512"
+                      width="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-center"
+                >
+                  <p
+                    class="text-sm font-medium text-dark-text"
+                  >
+                    OpenAI API
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            variants="[object Object]"
+          >
+            <div
+              class="relative w-full"
+            >
+              <div
+                class="tech-tile"
+              >
+                <div
+                  class="flex flex-col items-center gap-2"
                   title="OAuth"
                 >
                   <div

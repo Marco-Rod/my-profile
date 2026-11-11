@@ -177,7 +177,7 @@ export const technologies: Technology[] = [
     yearsOfExperience: 7,
   },
   
-  // Message Brokers & Background Tasks
+// Message Brokers & Background Tasks
   {
     id: 'kafka',
     name: 'Apache Kafka',
@@ -194,7 +194,25 @@ export const technologies: Technology[] = [
     proficiency: 'expert',
     yearsOfExperience: 5,
   },
-  
+
+  // Data Processing & AI
+  {
+    id: 'pandas',
+    name: 'Pandas',
+    category: 'tools',
+    icon: 'pandas',
+    proficiency: 'expert',
+    yearsOfExperience: 5,
+  },
+  {
+    id: 'openai',
+    name: 'OpenAI API',
+    category: 'tools',
+    icon: 'openai',
+    proficiency: 'intermediate',
+    yearsOfExperience: 2,
+  },
+
   // Security
   {
     id: 'oauth',
