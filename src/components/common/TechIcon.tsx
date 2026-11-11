@@ -36,6 +36,13 @@ import {
   SiTypescript,
   SiVuedotjs,
 } from 'react-icons/si';
+import {
+  FaBrain,
+  FaProjectDiagram,
+  FaFlask,
+  FaCode,
+  FaCube,
+} from 'react-icons/fa';
 
 /**
  * TechIcon Component
@@ -71,6 +78,14 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   kafka: SiApachekafka,
   celery: SiCelery,
   pandas: SiPandas,
+  openai: FaBrain,
+  ollama: FaBrain,
+  gemini: FaBrain,
+  rag: FaProjectDiagram,
+  'vector-store': FaDatabase,
+  embeddings: FaCube,
+  pytest: FaFlask,
+  alembic: FaCode,
   oauth: FaKey,
   jwt: SiJsonwebtokens,
   typescript: SiTypescript,
@@ -88,6 +103,8 @@ const iconColors: Record<string, string> = {
   mysql: '#f29111', oracle: '#f80000', mongodb: '#47a248', aws: '#ff9900',
   gcp: '#4285f4', docker: '#2496ed', git: '#f05032', cicd: '#8b9cf7',
   kafka: '#e8edf2', celery: '#37814a', pandas: '#150458',
+  openai: '#412991', ollama: '#000000', gemini: '#4285f4', rag: '#8b5cf6',
+  'vector-store': '#10b981', embeddings: '#f59e0b', pytest: '#0a9edd', alembic: '#6d28d9',
   oauth: '#f6c344', jwt: '#d966ff', linux: '#fcc624', typescript: '#3178c6',
   rabbitmq: '#ff6600',
 };

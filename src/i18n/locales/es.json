@@ -68,7 +68,14 @@
     "title": "Proyectos",
     "subtitle": "Trabajos Destacados y Contribuciones",
     "empty": "Próximamente agregaré nuevos proyectos.",
-    "view": "Ver proyecto"
+    "view": "Ver proyecto",
+    "diamond-iq": {
+      "title": "Diamond IQ",
+      "description": "Proyecto de práctica Backend + GenAI combinando FastAPI, PostgreSQL y LLMs para consultas de béisbol en lenguaje natural. Incluye Tool Calling para datos estructurados, RAG para documentación, Router LLM con fallback Ollama/Gemini/OpenAI, y orquestación agentic con guardrails.",
+      "longDescription": "Diamond IQ es un proyecto de práctica que combina un backend tradicional con capacidades de IA generativa aplicadas a datos de béisbol. Permite hacer preguntas en lenguaje natural y enrutarlas a la fuente apropiada: datos estructurados de jugadores/temporadas vía tools PostgreSQL, o definiciones/metodología vía RAG sobre una base de conocimiento. El sistema incluye un Router LLM soportando Ollama (local), Gemini y OpenAI con lógica de retry/fallback, seguimiento de uso de tokens, límites de ejecución, y guardrails para validación de entrada/salida. Construido como una aplicación FastAPI modular con arquitectura limpia en capas (API, orquestación IA, providers, tools, RAG, servicios, repositorios).",
+      "role": "Desarrollador Solo",
+      "impact": "Proyecto personal que demuestra integración backend + GenAI con patrones de producción: tool calling, RAG, routing multi-provider, observabilidad y arquitectura limpia."
+    }
   },
   "education": {
     "title": "Educación",

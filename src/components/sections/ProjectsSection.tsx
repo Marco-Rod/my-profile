@@ -23,6 +23,27 @@ export const ProjectsSection: React.FC = () => {
       .filter(Boolean) as string[];
   };
 
+  // Get translated project content
+  const getProjectTitle = (projectId: string): string => {
+    return t(`projects.${projectId}.title`, { defaultValue: '' }) || '';
+  };
+
+  const getProjectDescription = (projectId: string): string => {
+    return t(`projects.${projectId}.description`, { defaultValue: '' }) || '';
+  };
+
+  const getProjectLongDescription = (projectId: string): string => {
+    return t(`projects.${projectId}.longDescription`, { defaultValue: '' }) || '';
+  };
+
+  const getProjectRole = (projectId: string): string => {
+    return t(`projects.${projectId}.role`, { defaultValue: '' }) || '';
+  };
+
+  const getProjectImpact = (projectId: string): string => {
+    return t(`projects.${projectId}.impact`, { defaultValue: '' }) || '';
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -64,6 +85,8 @@ export const ProjectsSection: React.FC = () => {
         >
           {projects.map(project => {
             const techNames = getTechNames(project.technologies);
+            const title = getProjectTitle(project.id) || project.title;
+            const description = getProjectDescription(project.id) || project.description;
 
             return (
               <motion.div
@@ -76,13 +99,13 @@ export const ProjectsSection: React.FC = () => {
                     {project.image ? (
                       <img
                         src={project.image}
-                        alt={project.title}
+                        alt={title}
                         loading="lazy"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                       />
                     ) : (
                       <div className="text-6xl text-accent-primary/30">
-                        {project.title.charAt(0)}
+                        {title.charAt(0)}
                       </div>
                     )}
                   </div>
@@ -90,11 +113,11 @@ export const ProjectsSection: React.FC = () => {
                   {/* Project info */}
                   <div className="project-info">
                     <h3 className="text-2xl font-bold text-dark-text mb-2">
-                      {project.title}
+                      {title}
                     </h3>
 
                     <p className="text-dark-text-secondary mb-4 flex-grow">
-                      {project.description}
+                      {description}
                     </p>
 
                     {/* Technologies */}

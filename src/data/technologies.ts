@@ -212,6 +212,64 @@ export const technologies: Technology[] = [
     proficiency: 'intermediate',
     yearsOfExperience: 2,
   },
+  {
+    id: 'ollama',
+    name: 'Ollama',
+    category: 'tools',
+    icon: 'ollama',
+    proficiency: 'intermediate',
+    yearsOfExperience: 2,
+  },
+  {
+    id: 'gemini',
+    name: 'Google Gemini',
+    category: 'tools',
+    icon: 'gemini',
+    proficiency: 'intermediate',
+    yearsOfExperience: 1,
+  },
+  {
+    id: 'rag',
+    name: 'RAG (Retrieval-Augmented Generation)',
+    category: 'tools',
+    icon: 'rag',
+    proficiency: 'intermediate',
+    yearsOfExperience: 1,
+  },
+  {
+    id: 'vector-store',
+    name: 'Vector Store',
+    category: 'tools',
+    icon: 'vector-store',
+    proficiency: 'intermediate',
+    yearsOfExperience: 1,
+  },
+  {
+    id: 'embeddings',
+    name: 'Embeddings',
+    category: 'tools',
+    icon: 'embeddings',
+    proficiency: 'intermediate',
+    yearsOfExperience: 1,
+  },
+
+  // Testing & Migration
+  {
+    id: 'pytest',
+    name: 'Pytest',
+    category: 'tools',
+    icon: 'pytest',
+    proficiency: 'expert',
+    yearsOfExperience: 5,
+  },
+  {
+    id: 'alembic',
+    name: 'Alembic',
+    category: 'tools',
+    icon: 'alembic',
+    proficiency: 'expert',
+    yearsOfExperience: 4,
+  },
 
   // Security
   {
