@@ -28,4 +28,17 @@ export const projects: Project[] = [
     role: 'Solo Developer / Founder',
     impact: 'End-to-end SaaS product: full-stack architecture, third-party integrations (Meta WhatsApp Cloud API, Google Calendar/Identity), production deployment (Lightsail, Vercel, Caddy), security (HMAC, encrypted credentials, HttpOnly sessions), and self-service onboarding flow.',
   },
+  {
+    id: 'deck-at-the-plate',
+    title: 'Deck at the Plate',
+    description: 'Baseball deck-builder / card battler game (PWA). Players create a club, choose a franchise, receive a starter pack of 13 cards with rarity distribution, build lineups, and play full games vs CPU with a deterministic RNG engine. Built as React 19 PWA + FastAPI async backend.',
+    longDescription: 'Deck at the Plate is a baseball-themed deck-building card game where players manage a club, draft players via starter packs, and compete in full 9-inning games against a CPU opponent. The game features a deterministic resolution engine combining pitcher/batter attributes (Contact, Power, Vision, Velocity, Control, Movement, Stuff on a 40-99 percentile scale), player decisions (pitch type, zone, swing type), game context, and weighted RNG. Built as a Progressive Web App with React 19, TypeScript, Vite, Tailwind CSS 4, Zustand, and Dexie (IndexedDB) for offline-first support. Backend is FastAPI async with SQLAlchemy 2.0, PostgreSQL, Alembic migrations, and JWT auth. The ETL pipeline generates base cards from reference season stats. Docker Compose orchestrates PostgreSQL, backend, and PWA. Includes comprehensive debugging logging for starter pack validation (13 cards: 2 Silver, 4 Bronze, 7 Common).',
+    technologies: ['python', 'fastapi', 'postgresql', 'docker', 'alembic', 'pytest', 'react', 'typescript', 'vite', 'tailwind', 'sqlalchemy', 'pydantic', 'asyncio', 'zustand', 'dexie', 'framer-motion', 'i18next', 'jwt', 'pwa', 'indexeddb'],
+    github: 'https://github.com/Marco-Rod/deck-at-the-plate',
+    featured: true,
+    startDate: '2024-01',
+    endDate: '2025-12',
+    role: 'Solo Developer / Founder',
+    impact: 'Full-stack game project: deterministic game engine with percentile-based attributes, clean architecture separation (ETL → API → PWA), offline-first PWA with IndexedDB, comprehensive debugging/observability, and versioned contracts for gameplay evolution.',
+  },
 ];

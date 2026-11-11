@@ -112,6 +112,58 @@ export const technologies: Technology[] = [
     proficiency: 'intermediate',
     yearsOfExperience: 3,
   },
+  {
+    id: 'tailwind',
+    name: 'Tailwind CSS',
+    category: 'frontend',
+    icon: 'tailwind',
+    proficiency: 'expert',
+    yearsOfExperience: 4,
+  },
+  {
+    id: 'zustand',
+    name: 'Zustand',
+    category: 'frontend',
+    icon: 'zustand',
+    proficiency: 'expert',
+    yearsOfExperience: 3,
+  },
+  {
+    id: 'framer-motion',
+    name: 'Framer Motion',
+    category: 'frontend',
+    icon: 'framer-motion',
+    proficiency: 'expert',
+    yearsOfExperience: 3,
+  },
+  
+  // State & Storage
+  {
+    id: 'dexie',
+    name: 'Dexie.js',
+    category: 'frontend',
+    icon: 'dexie',
+    proficiency: 'expert',
+    yearsOfExperience: 2,
+  },
+  {
+    id: 'indexeddb',
+    name: 'IndexedDB',
+    category: 'database',
+    icon: 'indexeddb',
+    proficiency: 'expert',
+    yearsOfExperience: 3,
+  },
+  
+  // PWA
+  {
+    id: 'pwa',
+    name: 'PWA (Progressive Web App)',
+    category: 'tools',
+    icon: 'pwa',
+    proficiency: 'expert',
+    yearsOfExperience: 3,
+  },
   
   // Databases - Relational
   {
